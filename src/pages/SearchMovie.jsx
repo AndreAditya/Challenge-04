@@ -28,7 +28,7 @@ const SearchMovie = () => {
 
   return (
     <>
-      <Container className="pt-5">
+      <Container className="pt-5 pb-5">
         <Row className="mx-1 my-4 xd-flex justify-content-between">
           <Col className="d-flex align-items-center justify-content-center">
             <h1 className="mt-5" style={{ color: "white", fontSize: "30px" }}>
