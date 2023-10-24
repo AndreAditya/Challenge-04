@@ -79,7 +79,7 @@ a {
   z-index: 1;
   top: 100px;
   height: 70vh;
-  background-color: rgba(0, 0, 0, 0.15);
+  text-shadow: 2px 1px black;
 }
 
 .carousel-title {
