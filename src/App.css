@@ -147,6 +147,7 @@ body .carousel-control-prev {
 
 .custom-poster {
   width: 50%;
+  border-radius: 10px;
 }
 
 .custom-fontdetail {
@@ -161,8 +162,7 @@ body .carousel-control-prev {
   height: 100vh;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-  padding-top: 18rem;
-  padding-bottom: 18rem;
+  margin-top: 2rem;
   padding-left: 13rem;
   padding-right: 13rem;
   padding-top: 5rem;

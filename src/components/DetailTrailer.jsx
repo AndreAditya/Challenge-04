@@ -65,7 +65,7 @@ const DetailTrailer = () => {
     return (
       <>
         <Container>
-          <div className="custom-error">Data Not Found!</div>
+          <div className="custom-error">Loading....</div>
         </Container>
       </>
     );

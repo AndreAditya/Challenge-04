@@ -22,7 +22,7 @@ function NavbarComponent() {
   };
 
   return (
-    <Navbar className="navbar" expand="lg">
+    <Navbar className="navbar" expand="lg" sticky="top">
       <Container className="d-flex justify-content-between" fluid>
         <Col className="mx-3">
           <Navbar.Brand className="custom-brand" as={Link} to="/">
