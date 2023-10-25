@@ -7,6 +7,7 @@ import UpcomingMovie from "../components/UpcomingMovie";
 
 const Home = () => {
   const [popularMovies, setPopularMovies] = useState([]);
+  const slicedPopularMovies = popularMovies.slice(0, 18);
 
   useEffect(() => {
     const getPopularMovies = async () => {
@@ -52,7 +53,7 @@ const Home = () => {
           </Col>
         </Row>
         <Row className="d-flex justify-content-between gx-1 gy-5">
-          {popularMovies.map((movie) => (
+          {slicedPopularMovies.map((movie) => (
             <Col className="d-flex justify-content-center px-3" key={movie?.id}>
               <MovieItem
                 id={movie?.id}

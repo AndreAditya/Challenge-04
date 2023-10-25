@@ -5,6 +5,7 @@ import MovieItem from "../components/MovieItem";
 
 const UpcomingMovie = () => {
   const [upcomingMovies, setUpcomingMovies] = useState([]);
+  const slicedUpcomingMovies = upcomingMovies.slice(0, 18);
 
   useEffect(() => {
     const getUpcomingMovies = async () => {
@@ -49,7 +50,7 @@ const UpcomingMovie = () => {
           </Col>
         </Row>
         <Row className="d-flex justify-content-between gx-1 gy-5">
-          {upcomingMovies.map((movie) => (
+          {slicedUpcomingMovies.map((movie) => (
             <Col className="d-flex justify-content-center px-3" key={movie?.id}>
               <MovieItem
                 id={movie?.id}
